@@ -1,0 +1,91 @@
+/* 
+font - #3a3633
+button - #3a3633
+ */
+
+
+body{
+    background-image: url(background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    color: #3a3633;
+}
+
+form h2{
+    text-align: center;
+}
+
+form{
+    min-width: 44vw;
+    min-height: 62vh;
+    border: 1px solid lightgray;
+    border-radius: 32px;
+    background-image: url(form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 15px 10px 0 rgba(0, 0, 0, 0.35);
+    padding: 72px 0 48px 48px ;
+}
+
+.fields{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fields div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fields .names{
+    width: 48%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.fields .name div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fields .check-accept{
+    flex-direction: row-reverse;
+    justify-content: start;
+    letter-spacing: 0.75px;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.fields .check-accept input{
+ background-color: lightgray;
+}
+
+form input{
+    padding: 8px;
+    border-radius: 48px;
+    border: 1px solid lightgray;
+}
+
+form label{
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+.btn{
+    all: unset;
+    background-color: #ae3c33;
+    color: white;
+    padding: 10px 24px;
+    font-size: 15px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}

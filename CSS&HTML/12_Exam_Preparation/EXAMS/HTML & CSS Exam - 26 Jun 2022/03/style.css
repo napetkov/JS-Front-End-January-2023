@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header{
+    height: 78vh;
+    position: relative;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+header::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background: #000000;
+    opacity: 0.40;
+  }
+
+  header img{
+    margin-top: -285px;
+  }
+
+  header .head-conten{
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    text-align: center;
+  }
+
+  header .head-conten .navigation{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 24px;
+    margin-bottom: 95px;
+    justify-content: space-between;
+    font-size: 1.5rem;
+  }
+
+  header .head-conten h1{
+    font-size: 4rem; 
+    margin-bottom: 48px;   
+  }
+
+  header .head-conten h4{
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 86px;
+  }
+
+  button{
+    all: unset;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #00d08e;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 102px;
+  }
+
+  header .head-conten p{
+    font-size: 1.3rem;
+    font-weight: 300;
+  } 
+
+  .hustle-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hustle-section div{
+    width: 50%;
+  }
+
+  .hustle-section .pen img{
+    width: 100%;
+  }
+
+  .hustle-section .hustle{
+    padding: 48px 72px;
+  }
+    
+  .hustle-section .hustle h2{
+    font-size: 3rem;
+  }
+
+  .hustle-section .hustle p{
+    font-size: 1.8rem;
+    margin-bottom: 48px;
+  }
+  .hustle-section .hustle .list-items .item{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 18px;
+  }
+
+  .hustle-section .hustle .list-items .item i{
+    margin-right: 24px;
+    color: #00d08e;
+  }
+   
+  .hustle-section .hustle.case .option{
+    width: 120px;
+  }
+
+  .hustle-section .hustle.case .hustle-conteiner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }

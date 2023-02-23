@@ -1,0 +1,45 @@
+.grid-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: ;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas:
+        "head head head head head head"
+        "side side . content content ."
+        "side side . content content ."
+        "side side . content content ."
+        "side side . content content ."
+        "foot foot foot foot foot foot";
+}
+
+.grid-container div {
+    padding: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid gray;
+    border-radius: 8px;
+
+}
+
+.header {
+    background-color: lightsalmon;
+    grid-area: head;
+}
+
+.sidebar {
+    background-color: lightblue;
+    grid-area: side;
+}
+
+.content {
+    background-color: lightgreen;
+    grid-area: content;
+}
+
+.footer {
+    background-color: lightcoral;
+    grid-area: foot;
+}
