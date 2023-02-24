@@ -1,4 +1,4 @@
-function slove(number){
+function solve(number){
 
     for (let i = 1; i <= 10; i++) {
     
@@ -6,4 +6,4 @@ function slove(number){
     }
 }
 
-slove(5);
+solve(5);

@@ -1,4 +1,4 @@
-function slove(startNum, endNum){
+function solve(startNum, endNum){
 let sumNumbers=0;
 let arrNumbers = [];
 
@@ -11,4 +11,4 @@ let arrNumbers = [];
     console.log("Sum: "+sumNumbers);
 }
 
-slove(5, 10);
+solve(5, 10);
