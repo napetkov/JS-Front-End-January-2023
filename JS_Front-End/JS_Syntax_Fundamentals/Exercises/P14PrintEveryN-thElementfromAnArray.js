@@ -6,6 +6,12 @@ function printEveryNElement(array,number){
         resultArray.push(array[i]);
     }
 
+    // array.every()
+
+    // array.every((number,index) => {
+        
+    // });
+
     return resultArray;
 }
 
