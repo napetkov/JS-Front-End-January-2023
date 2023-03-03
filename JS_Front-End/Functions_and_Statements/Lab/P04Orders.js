@@ -1,5 +1,5 @@
 function orders(product, quantity) {
-   
+    
   function productPrice(product){
   
     switch (product) {
@@ -9,7 +9,7 @@ function orders(product, quantity) {
       return 1.0;
     case "coke":
       return 1.4;
-    case "snack":
+    case "snacks":
       return 2.0;
     default:
       return "Invalid product";
@@ -17,9 +17,10 @@ function orders(product, quantity) {
 }
 
 let totalPrice = productPrice(product) * quantity;
-
 console.log(totalPrice.toFixed(2));
 
+
 }
+
 orders("water", 5);
 orders("coffee", 2);
