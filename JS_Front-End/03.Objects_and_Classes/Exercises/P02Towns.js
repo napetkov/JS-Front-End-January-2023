@@ -1,13 +1,22 @@
 function townsParser(input) {
-let towns = [];
+  input
+    .map((line) => line.split(' | '))
+    .map(([town, latitude, longitude]) => ({town, latitude: Number(latitude).toFixed(2), longitude: Number(longitude).toFixed(2) }))
+    .forEach((townObj) => console.log(townObj));
 
-  for (const line of input) {
+
+
+
+
+  // let towns = [];
+
+//   for (const line of input) {
    
-    let [town, latitude, longitude] = line.split(' | ');
-    let townObj = {town, latitude: Number(latitude).toFixed(2), longitude: Number(longitude).toFixed(2) };
+//     let [town, latitude, longitude] = line.split(' | ');
+//     let townObj = {town, latitude: Number(latitude).toFixed(2), longitude: Number(longitude).toFixed(2) };
 
-console.log(townObj);
-}
+// console.log(townObj);
+// }
 }
 
 townsParser([

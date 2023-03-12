@@ -24,7 +24,7 @@ function moviesParser(input) {
         }
     }
 
-    console.log(movies);
+
     for (const movie of movies) {
         if(movie.hasOwnProperty('name') && movie.hasOwnProperty('director') && movie.hasOwnProperty('date')){
             console.log(JSON.stringify(movie));
