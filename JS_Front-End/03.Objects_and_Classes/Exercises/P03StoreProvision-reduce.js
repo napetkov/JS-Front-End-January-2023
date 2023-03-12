@@ -1,7 +1,6 @@
 function storeProvision(stock, orderProducts) {
     let combined = [...stock, ...orderProducts];
     let store = combined.reduce((data,currentValue,index) => {
-      
         if (index % 2 === 0) {
             if (!data.hasOwnProperty(currentValue)) {
               data[currentValue] = Number(combined[index + 1]);
